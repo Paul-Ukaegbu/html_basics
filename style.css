@@ -1,7 +1,44 @@
 h1{
     color: brown;
-    font-size: 20px;
+    font-size: 50px;
 }
-.yousuck{
-    color: blue;
+
+body{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
+/*tag section ^^^*/
+#survey{
+    background-color: beige;
+    font-family: fantasy;
+    margin: 100px;
+    padding: 100px;
+    border: 2px groove red;
+    width: 50%;
+    margin: 0px auto
+}
+
+#submit{
+    width: 100px;
+    margin: 0px auto;
+    border: 0px groove;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+#facts{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aliceblue;
+    padding: 100px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    width: 50%;
+
+}
+
+/*id section ^^^*/
+.tonystark{
+    width: 500px;
+    margin: 0px auto;
+}
+/*class section ^^^*/

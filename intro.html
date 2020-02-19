@@ -1,75 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="This blog is about my favorite super hero Tony Stark.">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="This blog is about my favorite super hero Tony Stark."
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Marvel Blog</title>
-</head>
-    <body>
-        <main style="font-family: monospace; font-weight: bold;">
-            <h1 style="font-family: fantasy; text-align: center;">Tony Stark</h1>
-            <img src = "TonyStark.jpg" height="800" width="500" alt="Tony Stark also known as Iron Man"/>
-            <p>Anthony Edward Stark is a character portrayed by Robert Downey Jr. in 
-                the Marvel Cinematic Universe (MCU) film franchise—based on the Marvel Comics 
-                character of the same name—commonly known by his alter ego, Iron Man. In the films, 
-                Stark is an industrialist, genius inventor, hero and former playboy who is CEO of Stark Industries. 
-                At the beginning of the series, he is a chief weapons manufacturer for the U.S. military, 
-                until he has a change of heart and redirects his technical knowledge into the creation of 
-                mechanized suits of armor which he uses to defend against those that would threaten peace around 
-                the world.
-            </p>
-            <table border="2">
-                <thead>
-                    <th>Movies</th>
-                    <th>Release Year</th>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Iron Man One</td>
-                        <td>2008</td>
-                    </tr>
-                    <tr>
-                        <td>Iron Man Two </td>
-                        <td>2010</td>
-                    </tr>
-                    <tr>
-                        <td>Iron Man Three </td>
-                        <td>2013</td>
-                    </tr>
-                </tbody>
-            </table>
-                <br><br>
-            <h3>Interesting Facts</h3>
-                    <ul>
-                        <li>Stark has a piece of shrapnel near his heart</li>
-                        <li>He also built specialized suits for other environments like deep sea diving and space travel</li>
-                        <li>He graduated from MIT with multiple degrees when he was 21 years old.</li>
-                    </ul>
-                <a href="https://www.ducksters.com/biography/iron_man.php" target="_blank">Click for more interesting facts!</a>
-                <br><br>
-        </main>
-        
-            <div id="survey">       
-                <h2 style="font-family: fantasy;">Please take this short survey</h2>
-                    
-                    <label for="email">Email :</label>
-                    <input type="text" id="email" name="email"><br> 
+  </head>
+  <body background="ironman.jpg">
+    <main style="font-family: monospace; font-weight: bold;">
+      <h1 style="font-family: fantasy; text-align: center;">Tony Stark</h1>
+      <div class="tonystark">
+        <img
+          src="TonyStark.jpg"
+          height="800"
+          width="500"
+          alt="Tony Stark also known as Iron Man"
+        />
+      </div>
+      <p>
+        Anthony Edward Stark is a character portrayed by Robert Downey Jr. in
+        the Marvel Cinematic Universe (MCU) film franchise—based on the Marvel
+        Comics character of the same name—commonly known by his alter ego, Iron
+        Man. In the films, Stark is an industrialist, genius inventor, hero and
+        former playboy who is CEO of Stark Industries. At the beginning of the
+        series, he is a chief weapons manufacturer for the U.S. military, until
+        he has a change of heart and redirects his technical knowledge into the
+        creation of mechanized suits of armor which he uses to defend against
+        those that would threaten peace around the world.
+      </p>
+      <table border="2">
+        <thead>
+          <th>Movies</th>
+          <th>Release Year</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Iron Man One</td>
+            <td>2008</td>
+          </tr>
+          <tr>
+            <td>Iron Man Two</td>
+            <td>2010</td>
+          </tr>
+          <tr>
+            <td>Iron Man Three</td>
+            <td>2013</td>
+          </tr>
+        </tbody>
+      </table>
+      <br /><br />
 
-                <h4>Did you like this blog?</h4>
-                    <label for="yes">Yes</label>
-                    <input type="radio" id="yes" name="yes" value="yes">
-                    <label for="no">No</label>
-                    <input type="radio" id="male" name="no" value="male">  
+      <div id="facts">
+      <h3>Interesting Facts</h3>
+      <ul>
+        <li>Stark has a piece of shrapnel near his heart</li>
+        <li>
+          He also built specialized suits for other environments like deep sea
+          diving and space travel
+        </li>
+        <li>
+          He graduated from MIT with multiple degrees when he was 21 years old.
+        </li>
+      </ul>
+      <a href="https://www.ducksters.com/biography/iron_man.php" target="_blank"
+        >Click for more interesting facts!</a>
+      <br /><br />
+      </div>
+    </main>
 
-                <h4>What Superhero would you like to see Iron Man fight?</h4>
-                    <label for="thor">Thor</label>
-                    <input type="checkbox" id="thor" name="superhero" value="thor">
-                    <label for="thor">Spider Man</label>
-                    <input type="checkbox" id="spiderman" name="superhero" value="spiderman">
-                    <label for="thor">Black Panther</label>
-                    <input type="checkbox" id="blackpanther" name="superhero" value="blackpanther">
-            </div>
-            <br>    
-            <input type="submit" value="Submit">
-    </body>
+    <div id="survey">
+      <h2 style="font-family: fantasy;">Please take this short survey</h2>
+
+      <label for="email">Email :</label>
+      <input type="text" id="email" name="email" /><br />
+
+      <h4>Did you like this blog?</h4>
+      <label for="yes">Yes</label>
+      <input type="radio" id="yes" name="yes" value="yes" />
+      <label for="no">No</label>
+      <input type="radio" id="male" name="no" value="male" />
+
+      <h4>What Superhero would you like to see Iron Man fight?</h4>
+      <label for="thor">Thor</label>
+      <input type="checkbox" id="thor" name="superhero" value="thor" />
+      <label for="thor">Spider Man</label>
+      <input
+        type="checkbox"
+        id="spiderman"
+        name="superhero"
+        value="spiderman"
+      />
+      <label for="thor">Black Panther</label>
+      <input
+        type="checkbox"
+        id="blackpanther"
+        name="superhero"
+        value="blackpanther"
+      />
+    </div>
+    <br />
+    <div id="submit">
+      <input type="submit" value="Submit" />
+    </div>
+  </body>
 </html>
